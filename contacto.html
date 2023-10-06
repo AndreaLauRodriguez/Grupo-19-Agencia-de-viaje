@@ -12,7 +12,7 @@
 </head>
   <body>
 
-  
+    
     <div class="contenedorCuerpo">
     <header>
      
@@ -82,24 +82,67 @@
 
 
     <main>
-       <div class="contenedorContacto">
-        <div class="mapaContacto">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.0473667798638!2d-71.31278722508782!3d-41.13349193095923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b72dbb708e1%3A0xd91b7e92f820aa94!2sCentro%20C%C3%ADvico%20Bariloche!5e0!3m2!1ses-419!2sar!4v1694553638181!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         </div>
-         <div id="formulario"> 
-          <div id="tituloformu"> ENVIAR MENSAJE</div>
-           <form method="post" action="php/formulario.php" >
-            <label>Nombre</label>
-            <input type=text name="nombre" class="inputtexto" >
-            <label>Mail</label>
-            <input type="email" name="correo" class="inputtexto" required > 
-            <label>Mensaje</label>
-            <textarea name="mensaje" class="texttexto" ></textarea>
-            <input type="submit"  id="boton" value="ENVIAR"> 
-            </form>
-        </div>
-      </div> 
+       
     </main>
+
+    <div class="contenedorContacto">
+    <section class="contacto">
+      
+      <div class="locales">
+        <h3>NOS ENCONTRAS EN</h3>
+        <div class="contaclocal">
+           <h4>Zona Oeste</h4> 
+           <h5>Haedo Norte.<br> A cinco cuadras de la estación</h5>
+           <img src="img/nosotros1.jpg" class="fotolocal" alt="foto">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.565908015518!2d-58.591956985433384!3d-34.640408580449915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc786398c67bb%3A0xc6816ee1a18c542a!2sDefensa%20994%2C%20B1706BNR%20Haedo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1604684792738!5m2!1ses!2sar" width="90%" height="90%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <br>
+        </div>
+       
+     </div> 
+  </section> 
+     <section class="infoadicional">
+         <div class="renglonred">
+           <p><img src="img/iconowhats.png" class="iconored" alt="logo whats" > 
+           1167391172</p>
+          </div> 
+      <div class="renglonred">
+       <p><img src="img/logotel.png" class="iconored" alt="logo tel" > 
+       20834230</p>
+      </div>
+      <div class="renglonred">
+       <p><img src="img/iconoofi.png" class="iconored" alt="logo ofi" > 
+       Defensa 994. Haedo</p>
+      </div>
+      <div class="renglonred">
+       <p><img src="img/iconomail.png" class="iconored" alt="logo mail" > 
+       andrelaurodri2@gmail.com</p>
+      </div>
+     </section> 
+    </div>    
+   <section id="formula"> 
+       <div id="tituloformu"> ENVIAR MENSAJE</div>
+        <form method="post" action="js/formulario.php" >
+          <label>Nombre</label>
+          <input type=text name="nombre" class="inputtexto" >
+          <label>Correo</label>
+          <input type="email" name="correo" class="inputtexto" required > 
+          <label>Mensaje</label>
+          <textarea name="mensaje" class="texttexto" ></textarea>
+          <input type="submit"  id="boton"  data-toggle="tooltip"  title="Gracias! Nos comunicaremos a la brevedad" value="ENVIAR"> 
+        </form>
+     
+  </section>
+   
+
+
+
+
+
+
+
+
+
+
     <a href="https://api.whatsapp.com/send?phone=541167391172"  target="_blank"><img src="img/logowhats.jpg" alt="whatsapp" class="ico-whatsapp"></a> 
     <footer>
         <div class="contenidoFooter">

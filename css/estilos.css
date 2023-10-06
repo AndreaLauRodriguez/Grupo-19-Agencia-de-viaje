@@ -18,6 +18,16 @@ h2 {
   animation-duration: 2s;
   font-size: xx-large;
 }
+h3 {
+  margin-left: 5%;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(5, 81, 180, 1) ; 
+  animation-duration: 2s;
+  font-size: 1.3em;
+  text-align: center;
+ 
+  
+}
 
 nav{
     width: 100%;
@@ -527,13 +537,14 @@ background-size: cover;
   width: 100%;
   height: auto;
   display: flex;
+  
 }
 
 
 
 #textocontacto{
   padding-left: 28%;
-  color: white;
+  color: #a0bfe0;
   font-size: .9rem;
   font-family: 'Montserrat', sans-serif;
   padding-top: 10%;
@@ -543,8 +554,6 @@ background-size: cover;
   width: 50%;
   height: 40%;
  margin: 10%;
- 
-
  float: right;
   border: 2px solid  #a0bfe0 ;
   border-radius: 20px;
@@ -616,6 +625,195 @@ background-size: cover;
   float: left;
   margin: 2%; 
 }
+
+.contacto{
+  
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+.fotocontac{
+  width: 80%;
+  height: auto;
+ padding-top: 60px;
+  padding-left: 7%;
+  
+}
+
+.locales{
+  width: 80%;
+  height: auto;
+  text-align: center;
+  font-family:'Montserrat', sans-serif ;
+  float:left;
+  margin-left: 10%;
+  margin-top: 1%;
+  padding-bottom: 2%;
+  
+  border-radius: 20px;
+}
+h3{
+  float: right;
+
+}
+.contaclocal{
+  width: 80%;
+  height: auto;
+  color:#4a55a2;
+  padding-left: 5%;
+  margin-left: 10%;
+  padding-right: 5%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  background: rgba(255,107,17,0.3);
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif ;
+  float: left;
+}
+.contaclocal:hover{
+
+ z-index: 100;  
+  
+}
+.fotolocal{
+  width: 80%;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+   padding-bottom: 5%;
+  background: rgba(255,107,17,0.3) ;
+  margin-bottom: 3%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.contaclocalmapa{
+  width: 20%;
+  height: auto;
+  padding: 1%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+ 
+  font-family: 'Montserrat', sans-serif ;
+  float:left;
+}
+.contaclocalmapa:hover{
+ transform: scale(1.1);
+  z-index: 100;  
+  opacity: 0.5; 
+}
+
+.comollegar{
+  width: 80%;
+  height: 40%;
+  
+  list-style: none;
+  margin-left: 10%;
+  margin-top: 2%;
+  font-family: 'Montserrat', sans-serif ; 
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 3%;
+  border: solid 3px #ffa011;
+}
+#formula{
+  background: rgba(255,107,17,0.5);
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+  margin-left:25%;
+  margin-bottom: 2%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  position: relative;
+  border-radius: 20px; 
+  text-align: center;
+  float:left;
+  font-size: 0.8em;
+  color:rgba(46, 64, 166, 1);
+}
+.formulario{
+  width: 80%;
+  height: auto;
+  background: #ffa011;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.lineacontac{
+  width: 100%;
+  height: auto;
+  float:center;
+ 
+}
+
+.img-boton{
+  width: 100%;
+  height: auto;
+  float:left;
+  position: relative;
+}
+
+.lineacontacimg{
+  width: 100%;
+  height: auto;
+  float:left;
+  padding-left: 20%;
+  margin-left: 2%;
+ 
+}
+
+.infoadicional{
+  background: rgba(255,107,17,0.5);
+  width: 30%;
+  height: 40%;
+  padding-top: 3%;
+  margin-top: 12%;
+  margin-left:10%;
+  padding-bottom: 3%;
+ 
+  padding-left: 3%;
+  padding-right: 3%;
+  position: relative;
+  border-radius: 20px; 
+  text-align: center;
+  font-family:'Montserrat', sans-serif ;
+  color: white;
+  float:left;
+}
+.renglonred{
+  width: 80%;
+  height: auto;
+  padding-left: 2%;
+  margin-top: 1%;
+  position: left;
+
+}
+.iconored{
+  width: 15%;
+  height: auto;
+  position: left;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:775px){
